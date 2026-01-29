@@ -102,3 +102,12 @@ L = ({"Kofi", "Ama", True, False}) # Frozen set
 
 print(type(K))
 print(type(L))
+
+# Binary Type
+M = b"Davisone"  #Byte
+N = bytearray(19) #Bytearray
+O = memoryview(M) #Memoryview
+
+print(type(M))
+print(type(N))
+print(type(O))
