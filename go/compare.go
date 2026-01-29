@@ -1,5 +1,8 @@
-package main
 
+// go:build compare
+
+
+package main
 // pseudo code;
 /*
 	compare X and Y:
