@@ -51,3 +51,54 @@
             just nothing.
 """
 
+
+# Numeric Type
+
+A = 40 # int
+B = 20.9 # float
+C = 10j # complex 
+
+print(type(A))
+print(type(B))
+print(type(C))
+
+# Text Type
+
+D = "Davisone"
+E = 'E'  # both are strings but this one would be classified as a CHAR in C
+
+print(type(D))
+print(type(E))
+
+# Boolean Type
+F = False
+T = True
+
+print(type(F))
+print(type(T))
+
+""" In the case where booleans are either 0 or 1, is when it is returned in a class or function"""
+
+# Sequence Type
+G = ["Davisone", 20, True] # List
+H = ("Davisone", 20, True) # Turple
+I = range(10) # Range
+
+print(type(G))
+print(type(H))
+print(type(I))
+
+# Mapping Type
+J = {"name":"Davisone",
+     "age": 20,
+     "IQ": 100,
+     "Loyal": True} # Dictionary
+
+print(type(J))
+
+# Set Type
+K = {"Kofi", "Ama", True, False} # Set
+L = ({"Kofi", "Ama", True, False}) # Frozen set
+
+print(type(K))
+print(type(L))
