@@ -1,5 +1,5 @@
 
-// go:build compare
+//go:build compare
 
 
 package main
